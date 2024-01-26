@@ -47,6 +47,7 @@ You give up.
 -> END
 * [Get aggressive.]
 You start to feel angry... <i>very angry</i>
+-> END
 
 
 
