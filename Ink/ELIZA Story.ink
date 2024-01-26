@@ -1,4 +1,5 @@
 VAR power_on_computer_attempts = 0
+VAR got_sword = false
 
 ELIZA: Greetings! How are you feeling today?
 *[Worse, now that you're here.]
@@ -42,12 +43,24 @@ You give up.
 You: I feel like I've been stuck in a loop.
 {~ELIZA|ELISA|LIZA|ELSA|ELZA|IZA|ILZ|ELIZ|EA|Elison|ELIZA|ELlZA|3L1Z4}: And how does this make you feel?
 -> time_loop
+* [Get aggressive.]
+You start to feel angry... <i>very angry</i>
+** [Unleash it.]
+You feed your anger, letting it grow.
+You look down at your hand and realize you are holding a sword. You raise the sword above your head...
+*** [\[Continue\]]
+Before you can think, the computer has been sliced, serrated, and smashed to a million pieces, the screen shining like glitter on the desk.
+-> END
+** [Run.]
+You get out of your chair and sprint towards the door.
+->END
+** [Hide it.]
+You hide your anger, and continue talking to the bot. Maybe if you respond enough times it's response will change?
+ -> time_loop
 * [Give Up.]
 You give up.
 -> END
-* [Get aggressive.]
-You start to feel angry... <i>very angry</i>
--> END
+
 
 
 
