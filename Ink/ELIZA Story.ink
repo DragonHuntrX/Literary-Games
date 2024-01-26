@@ -23,10 +23,9 @@ You: I've been feeling hopeless for the future.
 ELIZA: What has been making you feel this way?
 *** [Things seem to be trending towards the worst.]
 You: Everything seems to be going downhill. The climate is warming, global conflict is increasing, and nobody seems to be interested in investing in peace anymore.
-ELIZA: That's understandable. Its important to remember you can play your part
+ELIZA: That's understandable. Its important to remember you can play your part to better society, whether that be lobbying for better legislation and policies, or helping your neighbor.
 *** [I haven't felt like myself recently.]
-
-
+TODO Write this section
 
 === dead_computer ===
 ~ power_on_computer_attempts++
@@ -53,6 +52,9 @@ Before you can think, the computer has been sliced, serrated, and smashed to a m
 -> END
 ** [Run.]
 You get out of your chair and sprint towards the door.
+You run out of the office.
+You run out of your town.
+You run, and you don't stop.
 ->END
 ** [Hide it.]
 You hide your anger, and continue talking to the bot. Maybe if you respond enough times it's response will change?
@@ -60,7 +62,4 @@ You hide your anger, and continue talking to the bot. Maybe if you respond enoug
 * [Give Up.]
 You give up.
 -> END
-
-
-
 
