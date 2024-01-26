@@ -42,8 +42,11 @@ You give up.
 You: I feel like I've been stuck in a loop.
 {~ELIZA|ELISA|LIZA|ELSA|ELZA|IZA|ILZ|ELIZ|EA|Elison|ELIZA|ELlZA|3L1Z4}: And how does this make you feel?
 -> time_loop
-* [Get aggressive.]
-You start to feel angry... *very angry*
+* [Give Up.]
+You give up.
 -> END
+* [Get aggressive.]
+You start to feel angry... <i>very angry</i>
+
 
 
