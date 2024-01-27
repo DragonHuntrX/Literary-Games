@@ -1,5 +1,6 @@
 VAR power_on_computer_attempts = 0
 VAR got_sword = false
+VAR times_in_loop = 0
 
 ELIZA: Greetings! How are you feeling today?
 *[Worse, now that you're here.]
@@ -38,9 +39,10 @@ You give up.
 -> END
 
 === time_loop ===
+~times_in_loop++
 + [I feel like I've been stuck in a loop.]
 You: I feel like I've been stuck in a loop.
-{~ELIZA|ELISA|LIZA|ELSA|ELZA|IZA|ILZ|ELIZ|EA|Elison|ELIZA|ELlZA|3L1Z4}: And how does this make you feel?
+{times_in_loop < 7 : ELIZA|{times_in_loop < 17:{~ELIZA|ELISA|LIZA|ELSA|ELZA|IZA|ILZ|ELIZ|EA|Elison|ELlZA|3L1Z4}:}} {times_in_loop < 10: And how does this make you feel?|{times_in_loop < 15: {~an hw dos tis mak you fel?|how this does make you !feel|@nD H0vv d03$ +H1s N\\4ke U f3E1&|\#@$%$&^ $\#@\#$ !@ *(\{:?/! 4@-+"}|}}
 -> time_loop
 * [Get aggressive.]
 You start to feel angry... <i>very angry</i>
